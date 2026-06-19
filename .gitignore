@@ -1,0 +1,17 @@
+# --- WordPress backups & DB dumps (never commit; they balloon the repo) ---
+wp-content/uploads/backwpup/
+wp-content/backups-dup-pro/
+wp-content/uploads/backup*/
+_DB/
+
+# --- Caches, logs & generated content ---
+wp-content/cache/
+wp-content/uploads/cache/
+wp-content/wflogs/
+wp-content/upgrade/
+*.log
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+*.swp

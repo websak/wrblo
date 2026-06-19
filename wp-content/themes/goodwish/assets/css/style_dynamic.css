@@ -1,0 +1,101 @@
+/* generated in /var/www/vhosts/wrblo.org/wp-content/themes/goodwish/assets/custom-styles/general-custom-styles.php goodwish_edge_design_styles function */
+.edgtf-preload-background { background-image: url(https://wrblo.org/wp-content/themes/goodwish/assets/img/preload_pattern.png) !important;}
+
+/* generated in /var/www/vhosts/wrblo.org/wp-content/themes/goodwish/assets/custom-styles/general-custom-styles.php goodwish_edge_design_styles function */
+.edgtf-boxed .edgtf-wrapper { background-attachment: fixed;}
+
+/* generated in /var/www/vhosts/wrblo.org/wp-content/themes/goodwish/assets/custom-styles/general-custom-styles.php goodwish_edge_h6_styles function */
+h6 { color: #ffb422;}
+
+/* generated in /var/www/vhosts/wrblo.org/wp-content/themes/goodwish/assets/custom-styles/general-custom-styles.php goodwish_edge_text_styles function */
+p { font-size: 16px;}
+
+/* generated in /var/www/vhosts/wrblo.org/wp-content/themes/goodwish/framework/modules/contactform7/custom-styles/contact-form.php goodwish_edge_contact_form7_button_styles_2 function */
+.cf7_custom_style_2 input.wpcf7-form-control.wpcf7-submit { color: #000000;font-size: 15px;height: 50px;font-style: normal;font-weight: 600;text-transform: capitalize;background-color: rgba(255, 255, 255, 1);border-color: rgba(255, 255, 255, 1);padding-left: 44px;padding-right: 44px;}
+
+/* generated in /var/www/vhosts/wrblo.org/wp-content/themes/goodwish/framework/modules/contactform7/custom-styles/contact-form.php goodwish_edge_contact_form7_button_hover_styles_2 function */
+.cf7_custom_style_2 input.wpcf7-form-control.wpcf7-submit:not([disabled]):hover { color: #ffffff;background-color: rgba(33, 33, 33, 1);border-color: rgba(33, 33, 33, 1);}
+
+/* generated in /var/www/vhosts/wrblo.org/wp-content/themes/goodwish/framework/modules/contactform7/custom-styles/contact-form.php goodwish_edge_contact_form7_text_styles_3 function */
+.cf7_custom_style_3 ::-webkit-input-placeholder { color: #888888;}
+
+/* generated in /var/www/vhosts/wrblo.org/wp-content/themes/goodwish/framework/modules/contactform7/custom-styles/contact-form.php goodwish_edge_contact_form7_text_styles_3 function */
+.cf7_custom_style_3 :-moz-placeholder { color: #888888;}
+
+/* generated in /var/www/vhosts/wrblo.org/wp-content/themes/goodwish/framework/modules/contactform7/custom-styles/contact-form.php goodwish_edge_contact_form7_text_styles_3 function */
+.cf7_custom_style_3 ::-moz-placeholder { color: #888888;}
+
+/* generated in /var/www/vhosts/wrblo.org/wp-content/themes/goodwish/framework/modules/contactform7/custom-styles/contact-form.php goodwish_edge_contact_form7_text_styles_3 function */
+.cf7_custom_style_3 :-ms-input-placeholder { color: #888888;}
+
+/* generated in /var/www/vhosts/wrblo.org/wp-content/themes/goodwish/framework/modules/contactform7/custom-styles/contact-form.php goodwish_edge_contact_form7_text_styles_3 function */
+.cf7_custom_style_3 input.wpcf7-form-control.wpcf7-text, .cf7_custom_style_3 input.wpcf7-form-control.wpcf7-number, .cf7_custom_style_3 input.wpcf7-form-control.wpcf7-date, .cf7_custom_style_3 textarea.wpcf7-form-control.wpcf7-textarea, .cf7_custom_style_3 select.wpcf7-form-control.wpcf7-select, .cf7_custom_style_3 input.wpcf7-form-control.wpcf7-quiz { color: #888888;line-height: 50px;background-color: rgba(255, 255, 255, 1);border-color: rgba(225, 225, 225, 1);padding-top: 0px;padding-right: 0px;padding-bottom: 0px;}
+
+/* generated in /var/www/vhosts/wrblo.org/wp-content/themes/goodwish/framework/modules/contactform7/custom-styles/contact-form.php goodwish_edge_contact_form7_focus_styles_3 function */
+.cf7_custom_style_3 input.wpcf7-form-control.wpcf7-text:focus, .cf7_custom_style_3 input.wpcf7-form-control.wpcf7-number:focus, .cf7_custom_style_3 input.wpcf7-form-control.wpcf7-date:focus, .cf7_custom_style_3 textarea.wpcf7-form-control.wpcf7-textarea:focus, .cf7_custom_style_3 select.wpcf7-form-control.wpcf7-select:focus, .cf7_custom_style_3 input.wpcf7-form-control.wpcf7-quiz:focus { background-color: rgba(255, 255, 255, 1);border-color: rgba(225, 225, 225, 1);}
+
+/* generated in /var/www/vhosts/wrblo.org/wp-content/themes/goodwish/framework/modules/contactform7/custom-styles/contact-form.php goodwish_edge_contact_form7_label_styles_3 function */
+.cf7_custom_style_3 p { color: #000000;font-family: Merriweather;font-weight: 600;text-transform: capitalize;}
+
+/* generated in /var/www/vhosts/wrblo.org/wp-content/themes/goodwish/framework/modules/fullscreenmenu/custom-styles/fullscreen-menu.php goodwish_edge_fullscreen_menu_general_styles function */
+.edgtf-fullscreen-menu-holder { background-color: rgba(246,244,238,0,98);}
+
+/* generated in /var/www/vhosts/wrblo.org/wp-content/themes/goodwish/framework/modules/header/custom-styles/header.php goodwish_edge_header_top_bar_styles function */
+.edgtf-top-bar { background-color: rgba(0, 0, 0, 1);}
+
+/* generated in /var/www/vhosts/wrblo.org/wp-content/themes/goodwish/framework/modules/header/custom-styles/header.php goodwish_edge_header_standard_extended_logo_area_styles function */
+.edgtf-header-standard-extended .edgtf-page-header .edgtf-logo-area .edgtf-grid .edgtf-vertical-align-containers { border: 0;}
+
+/* generated in /var/www/vhosts/wrblo.org/wp-content/themes/goodwish/framework/modules/header/custom-styles/header.php goodwish_edge_header_standard_menu_area_styles function */
+.edgtf-header-standard .edgtf-page-header .edgtf-logo-wrapper a { max-height: 81px;}
+
+/* generated in /var/www/vhosts/wrblo.org/wp-content/themes/goodwish/framework/modules/header/custom-styles/header.php goodwish_edge_header_standard_menu_area_styles function */
+.edgtf-header-standard .edgtf-page-header .edgtf-menu-area { height: 90px;}
+
+
+        
+        
+        
+        
+	            
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                
+        
+                
+        /* generated in /var/www/vhosts/wrblo.org/wp-content/themes/goodwish/framework/modules/sidearea/custom-styles/sidearea.php goodwish_edge_side_area_slide_from_right_type_style function */
+.edgtf-side-menu-slide-from-right .edgtf-side-menu { right: -25%;width: 25%;}
+
+/* generated in /var/www/vhosts/wrblo.org/wp-content/themes/goodwish/framework/modules/sidearea/custom-styles/sidearea.php goodwish_edge_side_area_slide_from_right_type_style function */
+.edgtf-side-menu-slide-from-right .edgtf-wrapper .edgtf-cover { background-color: #000000;}
+
+/* generated in /var/www/vhosts/wrblo.org/wp-content/themes/goodwish/framework/modules/sidearea/custom-styles/sidearea.php goodwish_edge_side_area_icon_color_styles function */
+a.edgtf-side-menu-button-opener { font-size: 15px;}
+
+/* generated in /var/www/vhosts/wrblo.org/wp-content/themes/goodwish/framework/modules/sidearea/custom-styles/sidearea.php goodwish_edge_side_area_styles function */
+.edgtf-side-menu a.edgtf-close-side-menu { height: 0px;width: 0px;line-height: 0px;padding: 0;}
+
+/* generated in /var/www/vhosts/wrblo.org/wp-content/themes/goodwish/framework/modules/sidearea/custom-styles/sidearea.php goodwish_edge_side_area_styles function */
+.edgtf-side-menu a.edgtf-close-side-menu span, .edgtf-side-menu a.edgtf-close-side-menu i { font-size: 0px;height: 0px;width: 0px;line-height: 0px;}
+

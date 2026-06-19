@@ -1,0 +1,245 @@
+2026-06-06T00:34:51+00:00 DEBUG Stripe API request: GET account CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20"}
+2026-06-06T00:34:51+00:00 DEBUG Stripe API response: GET account CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20","response":{"id":"acct_1SCzgW0Q3J9q34Tt","object":"account","business_profile":{"annual_revenue":null,"estimated_worker_count":null,"mcc":"8398","minority_owned_business_designation":null,"name":"WRBLO","support_address":null,"support_email":null,"support_phone":"+443333397980","support_url":null,"url":"https://wrblo.org"},"business_type":"non_profit","capabilities":{"afterpay_clearpay_payments":"inactive","amazon_pay_payments":"active","bancontact_payments":"active","card_payments":"active","cartes_bancaires_payments":"pending","eps_payments":"active","kakao_pay_payments":"active","klarna_payments":"inactive","link_payments":"active","naver_pay_payments":"active","payco_payments":"active","revolut_pay_payments":"active","samsung_pay_payments":"active","transfers":"active"},"charges_enabled":true,"company":{"name":"WRBLO Community Interest Company","structure":"incorporated_non_profit"},"controller":{"type":"account"},"country":"GB","default_currency":"gbp","details_submitted":true,"email":"financeteam@wrblo.org","future_requirements":{"alternatives":[],"current_deadline":null,"currently_due":[],"disabled_reason":null,"errors":[],"eventually_due":[],"past_due":[],"pending_verification":[]},"metadata":{},"payouts_enabled":true,"requirements":{"alternatives":[{"alternative_fields_due":["directors.first_name","directors.last_name","documents.proof_of_registration.files"],"original_fields_due":["directors.first_name","directors.last_name"]},{"alternative_fields_due":["directors.first_name","directors.last_name","documents.proof_of_registration.files","documents.proof_of_registration.signer.person"],"original_fields_due":["directors.first_name","directors.last_name"]}],"current_deadline":1785301910,"currently_due":["directors.first_name","directors.last_name","person_1SCzs00Q3J9q34Tttpbwc6w7.address.city","person_1SCzs00Q3J9q34Tttpbwc6w7.address.line1","person_1SCzs00Q3J9q34Tttpbwc6w7.address.postal_code","person_1SCzsm0Q3J9q34TtYOgUejPq.address.city","person_1SCzsm0Q3J9q34TtYOgUejPq.address.line1","person_1SCzsm0Q3J9q34TtYOgUejPq.address.postal_code","person_1SD0540Q3J9q34TtETHdZZ4x.address.city","person_1SD0540Q3J9q34TtETHdZZ4x.address.line1","person_1SD0540Q3J9q34TtETHdZZ4x.address.postal_code"],"disabled_reason":null,"errors":[{"code":"verification_missing_directors","reason":"We identified that your business has directors that have not been added to the account. Please add missing directors to your account. The missing directors we have identified are: Stamatoula Panagiari, Justice Olusola Williams.","requirement":"directors.first_name"},{"code":"verification_missing_directors","reason":"We identified that your business has directors that have not been added to the account. Please add missing directors to your account. The missing directors we have identified are: Stamatoula Panagiari, Justice Olusola Williams.","requirement":"directors.last_name"}],"eventually_due":["directors.first_name","directors.last_name","person_1SCzs00Q3J9q34Tttpbwc6w7.address.city","person_1SCzs00Q3J9q34Tttpbwc6w7.address.line1","person_1SCzs00Q3J9q34Tttpbwc6w7.address.postal_code","person_1SCzsm0Q3J9q34TtYOgUejPq.address.city","person_1SCzsm0Q3J9q34TtYOgUejPq.address.line1","person_1SCzsm0Q3J9q34TtYOgUejPq.address.postal_code","person_1SD0540Q3J9q34TtETHdZZ4x.address.city","person_1SD0540Q3J9q34TtETHdZZ4x.address.line1","person_1SD0540Q3J9q34TtETHdZZ4x.address.postal_code"],"past_due":[],"pending_verification":[]},"settings":{"bacs_debit_payments":{"display_name":"Stripe","service_user_number":"449900"},"branding":{"icon":null,"logo":null,"primary_color":null,"secondary_color":null},"card_issuing":{"tos_acceptance":{"date":null,"ip":null}},"card_payments":{"statement_descriptor_prefix":null,"statement_descriptor_prefix_kana":null,"statement_descriptor_prefix_kanji":null},"dashboard":{"display_name":"WRBLO","timezone":"Europe/London"},"invoices":{"default_account_tax_ids":null,"hosted_payment_method_save":"offer"},"payments":{"statement_descriptor":"WRBLO","statement_descriptor_kana":null,"statement_descriptor_kanji":null},"payouts":{"debit_negative_balances":true,"schedule":{"delay_days":3,"interval":"weekly","weekly_anchor":"monday","weekly_payout_days":["monday"]},"statement_descriptor":null},"paypay_payments":{},"sepa_debit_payments":{}},"type":"standard"}}
+2026-06-06T00:53:48+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-06-06T00:53:48+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-06-06T03:45:13+00:00 DEBUG Stripe API request: GET account CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20"}
+2026-06-06T03:45:14+00:00 DEBUG Stripe API response: GET account CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20","response":{"id":"acct_1SCzgW0Q3J9q34Tt","object":"account","business_profile":{"annual_revenue":null,"estimated_worker_count":null,"mcc":"8398","minority_owned_business_designation":null,"name":"WRBLO","support_address":null,"support_email":null,"support_phone":"+443333397980","support_url":null,"url":"https://wrblo.org"},"business_type":"non_profit","capabilities":{"afterpay_clearpay_payments":"inactive","amazon_pay_payments":"active","bancontact_payments":"active","card_payments":"active","cartes_bancaires_payments":"pending","eps_payments":"active","kakao_pay_payments":"active","klarna_payments":"inactive","link_payments":"active","naver_pay_payments":"active","payco_payments":"active","revolut_pay_payments":"active","samsung_pay_payments":"active","transfers":"active"},"charges_enabled":true,"company":{"name":"WRBLO Community Interest Company","structure":"incorporated_non_profit"},"controller":{"type":"account"},"country":"GB","default_currency":"gbp","details_submitted":true,"email":"financeteam@wrblo.org","future_requirements":{"alternatives":[],"current_deadline":null,"currently_due":[],"disabled_reason":null,"errors":[],"eventually_due":[],"past_due":[],"pending_verification":[]},"metadata":{},"payouts_enabled":true,"requirements":{"alternatives":[{"alternative_fields_due":["directors.first_name","directors.last_name","documents.proof_of_registration.files"],"original_fields_due":["directors.first_name","directors.last_name"]},{"alternative_fields_due":["directors.first_name","directors.last_name","documents.proof_of_registration.files","documents.proof_of_registration.signer.person"],"original_fields_due":["directors.first_name","directors.last_name"]}],"current_deadline":1785301910,"currently_due":["directors.first_name","directors.last_name","person_1SCzs00Q3J9q34Tttpbwc6w7.address.city","person_1SCzs00Q3J9q34Tttpbwc6w7.address.line1","person_1SCzs00Q3J9q34Tttpbwc6w7.address.postal_code","person_1SCzsm0Q3J9q34TtYOgUejPq.address.city","person_1SCzsm0Q3J9q34TtYOgUejPq.address.line1","person_1SCzsm0Q3J9q34TtYOgUejPq.address.postal_code","person_1SD0540Q3J9q34TtETHdZZ4x.address.city","person_1SD0540Q3J9q34TtETHdZZ4x.address.line1","person_1SD0540Q3J9q34TtETHdZZ4x.address.postal_code"],"disabled_reason":null,"errors":[{"code":"verification_missing_directors","reason":"We identified that your business has directors that have not been added to the account. Please add missing directors to your account. The missing directors we have identified are: Stamatoula Panagiari, Justice Olusola Williams.","requirement":"directors.first_name"},{"code":"verification_missing_directors","reason":"We identified that your business has directors that have not been added to the account. Please add missing directors to your account. The missing directors we have identified are: Stamatoula Panagiari, Justice Olusola Williams.","requirement":"directors.last_name"}],"eventually_due":["directors.first_name","directors.last_name","person_1SCzs00Q3J9q34Tttpbwc6w7.address.city","person_1SCzs00Q3J9q34Tttpbwc6w7.address.line1","person_1SCzs00Q3J9q34Tttpbwc6w7.address.postal_code","person_1SCzsm0Q3J9q34TtYOgUejPq.address.city","person_1SCzsm0Q3J9q34TtYOgUejPq.address.line1","person_1SCzsm0Q3J9q34TtYOgUejPq.address.postal_code","person_1SD0540Q3J9q34TtETHdZZ4x.address.city","person_1SD0540Q3J9q34TtETHdZZ4x.address.line1","person_1SD0540Q3J9q34TtETHdZZ4x.address.postal_code"],"past_due":[],"pending_verification":[]},"settings":{"bacs_debit_payments":{"display_name":"Stripe","service_user_number":"449900"},"branding":{"icon":null,"logo":null,"primary_color":null,"secondary_color":null},"card_issuing":{"tos_acceptance":{"date":null,"ip":null}},"card_payments":{"statement_descriptor_prefix":null,"statement_descriptor_prefix_kana":null,"statement_descriptor_prefix_kanji":null},"dashboard":{"display_name":"WRBLO","timezone":"Europe/London"},"invoices":{"default_account_tax_ids":null,"hosted_payment_method_save":"offer"},"payments":{"statement_descriptor":"WRBLO","statement_descriptor_kana":null,"statement_descriptor_kanji":null},"payouts":{"debit_negative_balances":true,"schedule":{"delay_days":3,"interval":"weekly","weekly_anchor":"monday","weekly_payout_days":["monday"]},"statement_descriptor":null},"paypay_payments":{},"sepa_debit_payments":{}},"type":"standard"}}
+2026-06-06T03:45:14+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-06-06T03:45:14+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-06-06T04:25:44+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-06-06T04:25:44+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-06-06T07:25:25+00:00 DEBUG Daily asynchronous cache cleanup already scheduled CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20"}
+2026-06-06T07:25:25+00:00 DEBUG Stripe API request: GET account CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20"}
+2026-06-06T07:25:26+00:00 DEBUG Stripe API response: GET account CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20","response":{"id":"acct_1SCzgW0Q3J9q34Tt","object":"account","business_profile":{"annual_revenue":null,"estimated_worker_count":null,"mcc":"8398","minority_owned_business_designation":null,"name":"WRBLO","support_address":null,"support_email":null,"support_phone":"+443333397980","support_url":null,"url":"https://wrblo.org"},"business_type":"non_profit","capabilities":{"afterpay_clearpay_payments":"inactive","amazon_pay_payments":"active","bancontact_payments":"active","card_payments":"active","cartes_bancaires_payments":"pending","eps_payments":"active","kakao_pay_payments":"active","klarna_payments":"inactive","link_payments":"active","naver_pay_payments":"active","payco_payments":"active","revolut_pay_payments":"active","samsung_pay_payments":"active","transfers":"active"},"charges_enabled":true,"company":{"name":"WRBLO Community Interest Company","structure":"incorporated_non_profit"},"controller":{"type":"account"},"country":"GB","default_currency":"gbp","details_submitted":true,"email":"financeteam@wrblo.org","future_requirements":{"alternatives":[],"current_deadline":null,"currently_due":[],"disabled_reason":null,"errors":[],"eventually_due":[],"past_due":[],"pending_verification":[]},"metadata":{},"payouts_enabled":true,"requirements":{"alternatives":[{"alternative_fields_due":["directors.first_name","directors.last_name","documents.proof_of_registration.files"],"original_fields_due":["directors.first_name","directors.last_name"]},{"alternative_fields_due":["directors.first_name","directors.last_name","documents.proof_of_registration.files","documents.proof_of_registration.signer.person"],"original_fields_due":["directors.first_name","directors.last_name"]}],"current_deadline":1785301910,"currently_due":["directors.first_name","directors.last_name","person_1SCzs00Q3J9q34Tttpbwc6w7.address.city","person_1SCzs00Q3J9q34Tttpbwc6w7.address.line1","person_1SCzs00Q3J9q34Tttpbwc6w7.address.postal_code","person_1SCzsm0Q3J9q34TtYOgUejPq.address.city","person_1SCzsm0Q3J9q34TtYOgUejPq.address.line1","person_1SCzsm0Q3J9q34TtYOgUejPq.address.postal_code","person_1SD0540Q3J9q34TtETHdZZ4x.address.city","person_1SD0540Q3J9q34TtETHdZZ4x.address.line1","person_1SD0540Q3J9q34TtETHdZZ4x.address.postal_code"],"disabled_reason":null,"errors":[{"code":"verification_missing_directors","reason":"We identified that your business has directors that have not been added to the account. Please add missing directors to your account. The missing directors we have identified are: Stamatoula Panagiari, Justice Olusola Williams.","requirement":"directors.first_name"},{"code":"verification_missing_directors","reason":"We identified that your business has directors that have not been added to the account. Please add missing directors to your account. The missing directors we have identified are: Stamatoula Panagiari, Justice Olusola Williams.","requirement":"directors.last_name"}],"eventually_due":["directors.first_name","directors.last_name","person_1SCzs00Q3J9q34Tttpbwc6w7.address.city","person_1SCzs00Q3J9q34Tttpbwc6w7.address.line1","person_1SCzs00Q3J9q34Tttpbwc6w7.address.postal_code","person_1SCzsm0Q3J9q34TtYOgUejPq.address.city","person_1SCzsm0Q3J9q34TtYOgUejPq.address.line1","person_1SCzsm0Q3J9q34TtYOgUejPq.address.postal_code","person_1SD0540Q3J9q34TtETHdZZ4x.address.city","person_1SD0540Q3J9q34TtETHdZZ4x.address.line1","person_1SD0540Q3J9q34TtETHdZZ4x.address.postal_code"],"past_due":[],"pending_verification":[]},"settings":{"bacs_debit_payments":{"display_name":"Stripe","service_user_number":"449900"},"branding":{"icon":null,"logo":null,"primary_color":null,"secondary_color":null},"card_issuing":{"tos_acceptance":{"date":null,"ip":null}},"card_payments":{"statement_descriptor_prefix":null,"statement_descriptor_prefix_kana":null,"statement_descriptor_prefix_kanji":null},"dashboard":{"display_name":"WRBLO","timezone":"Europe/London"},"invoices":{"default_account_tax_ids":null,"hosted_payment_method_save":"offer"},"payments":{"statement_descriptor":"WRBLO","statement_descriptor_kana":null,"statement_descriptor_kanji":null},"payouts":{"debit_negative_balances":true,"schedule":{"delay_days":3,"interval":"weekly","weekly_anchor":"monday","weekly_payout_days":["monday"]},"statement_descriptor":null},"paypay_payments":{},"sepa_debit_payments":{}},"type":"standard"}}
+2026-06-06T08:04:48+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-06-06T08:04:48+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-06-06T08:33:10+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-06-06T08:33:10+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-06-06T08:57:46+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-06-06T08:57:46+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-06-06T09:01:09+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-06-06T09:01:10+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-06-06T10:01:18+00:00 DEBUG Stripe API request: GET account CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20"}
+2026-06-06T10:01:19+00:00 DEBUG Stripe API response: GET account CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20","response":{"id":"acct_1SCzgW0Q3J9q34Tt","object":"account","business_profile":{"annual_revenue":null,"estimated_worker_count":null,"mcc":"8398","minority_owned_business_designation":null,"name":"WRBLO","support_address":null,"support_email":null,"support_phone":"+443333397980","support_url":null,"url":"https://wrblo.org"},"business_type":"non_profit","capabilities":{"afterpay_clearpay_payments":"inactive","amazon_pay_payments":"active","bancontact_payments":"active","card_payments":"active","cartes_bancaires_payments":"pending","eps_payments":"active","kakao_pay_payments":"active","klarna_payments":"inactive","link_payments":"active","naver_pay_payments":"active","payco_payments":"active","revolut_pay_payments":"active","samsung_pay_payments":"active","transfers":"active"},"charges_enabled":true,"company":{"name":"WRBLO Community Interest Company","structure":"incorporated_non_profit"},"controller":{"type":"account"},"country":"GB","default_currency":"gbp","details_submitted":true,"email":"financeteam@wrblo.org","future_requirements":{"alternatives":[],"current_deadline":null,"currently_due":[],"disabled_reason":null,"errors":[],"eventually_due":[],"past_due":[],"pending_verification":[]},"metadata":{},"payouts_enabled":true,"requirements":{"alternatives":[{"alternative_fields_due":["directors.first_name","directors.last_name","documents.proof_of_registration.files"],"original_fields_due":["directors.first_name","directors.last_name"]},{"alternative_fields_due":["directors.first_name","directors.last_name","documents.proof_of_registration.files","documents.proof_of_registration.signer.person"],"original_fields_due":["directors.first_name","directors.last_name"]}],"current_deadline":1785301910,"currently_due":["directors.first_name","directors.last_name","person_1SCzs00Q3J9q34Tttpbwc6w7.address.city","person_1SCzs00Q3J9q34Tttpbwc6w7.address.line1","person_1SCzs00Q3J9q34Tttpbwc6w7.address.postal_code","person_1SCzsm0Q3J9q34TtYOgUejPq.address.city","person_1SCzsm0Q3J9q34TtYOgUejPq.address.line1","person_1SCzsm0Q3J9q34TtYOgUejPq.address.postal_code","person_1SD0540Q3J9q34TtETHdZZ4x.address.city","person_1SD0540Q3J9q34TtETHdZZ4x.address.line1","person_1SD0540Q3J9q34TtETHdZZ4x.address.postal_code"],"disabled_reason":null,"errors":[{"code":"verification_missing_directors","reason":"We identified that your business has directors that have not been added to the account. Please add missing directors to your account. The missing directors we have identified are: Stamatoula Panagiari, Justice Olusola Williams.","requirement":"directors.first_name"},{"code":"verification_missing_directors","reason":"We identified that your business has directors that have not been added to the account. Please add missing directors to your account. The missing directors we have identified are: Stamatoula Panagiari, Justice Olusola Williams.","requirement":"directors.last_name"}],"eventually_due":["directors.first_name","directors.last_name","person_1SCzs00Q3J9q34Tttpbwc6w7.address.city","person_1SCzs00Q3J9q34Tttpbwc6w7.address.line1","person_1SCzs00Q3J9q34Tttpbwc6w7.address.postal_code","person_1SCzsm0Q3J9q34TtYOgUejPq.address.city","person_1SCzsm0Q3J9q34TtYOgUejPq.address.line1","person_1SCzsm0Q3J9q34TtYOgUejPq.address.postal_code","person_1SD0540Q3J9q34TtETHdZZ4x.address.city","person_1SD0540Q3J9q34TtETHdZZ4x.address.line1","person_1SD0540Q3J9q34TtETHdZZ4x.address.postal_code"],"past_due":[],"pending_verification":[]},"settings":{"bacs_debit_payments":{"display_name":"Stripe","service_user_number":"449900"},"branding":{"icon":null,"logo":null,"primary_color":null,"secondary_color":null},"card_issuing":{"tos_acceptance":{"date":null,"ip":null}},"card_payments":{"statement_descriptor_prefix":null,"statement_descriptor_prefix_kana":null,"statement_descriptor_prefix_kanji":null},"dashboard":{"display_name":"WRBLO","timezone":"Europe/London"},"invoices":{"default_account_tax_ids":null,"hosted_payment_method_save":"offer"},"payments":{"statement_descriptor":"WRBLO","statement_descriptor_kana":null,"statement_descriptor_kanji":null},"payouts":{"debit_negative_balances":true,"schedule":{"delay_days":3,"interval":"weekly","weekly_anchor":"monday","weekly_payout_days":["monday"]},"statement_descriptor":null},"paypay_payments":{},"sepa_debit_payments":{}},"type":"standard"}}
+2026-06-06T12:03:10+00:00 DEBUG Stripe API request: GET account CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20"}
+2026-06-06T12:03:11+00:00 DEBUG Stripe API response: GET account CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20","response":{"id":"acct_1SCzgW0Q3J9q34Tt","object":"account","business_profile":{"annual_revenue":null,"estimated_worker_count":null,"mcc":"8398","minority_owned_business_designation":null,"name":"WRBLO","support_address":null,"support_email":null,"support_phone":"+443333397980","support_url":null,"url":"https://wrblo.org"},"business_type":"non_profit","capabilities":{"afterpay_clearpay_payments":"inactive","amazon_pay_payments":"active","bancontact_payments":"active","card_payments":"active","cartes_bancaires_payments":"pending","eps_payments":"active","kakao_pay_payments":"active","klarna_payments":"inactive","link_payments":"active","naver_pay_payments":"active","payco_payments":"active","revolut_pay_payments":"active","samsung_pay_payments":"active","transfers":"active"},"charges_enabled":true,"company":{"name":"WRBLO Community Interest Company","structure":"incorporated_non_profit"},"controller":{"type":"account"},"country":"GB","default_currency":"gbp","details_submitted":true,"email":"financeteam@wrblo.org","future_requirements":{"alternatives":[],"current_deadline":null,"currently_due":[],"disabled_reason":null,"errors":[],"eventually_due":[],"past_due":[],"pending_verification":[]},"metadata":{},"payouts_enabled":true,"requirements":{"alternatives":[{"alternative_fields_due":["directors.first_name","directors.last_name","documents.proof_of_registration.files"],"original_fields_due":["directors.first_name","directors.last_name"]},{"alternative_fields_due":["directors.first_name","directors.last_name","documents.proof_of_registration.files","documents.proof_of_registration.signer.person"],"original_fields_due":["directors.first_name","directors.last_name"]}],"current_deadline":1785301910,"currently_due":["directors.first_name","directors.last_name","person_1SCzs00Q3J9q34Tttpbwc6w7.address.city","person_1SCzs00Q3J9q34Tttpbwc6w7.address.line1","person_1SCzs00Q3J9q34Tttpbwc6w7.address.postal_code","person_1SCzsm0Q3J9q34TtYOgUejPq.address.city","person_1SCzsm0Q3J9q34TtYOgUejPq.address.line1","person_1SCzsm0Q3J9q34TtYOgUejPq.address.postal_code","person_1SD0540Q3J9q34TtETHdZZ4x.address.city","person_1SD0540Q3J9q34TtETHdZZ4x.address.line1","person_1SD0540Q3J9q34TtETHdZZ4x.address.postal_code"],"disabled_reason":null,"errors":[{"code":"verification_missing_directors","reason":"We identified that your business has directors that have not been added to the account. Please add missing directors to your account. The missing directors we have identified are: Stamatoula Panagiari, Justice Olusola Williams.","requirement":"directors.first_name"},{"code":"verification_missing_directors","reason":"We identified that your business has directors that have not been added to the account. Please add missing directors to your account. The missing directors we have identified are: Stamatoula Panagiari, Justice Olusola Williams.","requirement":"directors.last_name"}],"eventually_due":["directors.first_name","directors.last_name","person_1SCzs00Q3J9q34Tttpbwc6w7.address.city","person_1SCzs00Q3J9q34Tttpbwc6w7.address.line1","person_1SCzs00Q3J9q34Tttpbwc6w7.address.postal_code","person_1SCzsm0Q3J9q34TtYOgUejPq.address.city","person_1SCzsm0Q3J9q34TtYOgUejPq.address.line1","person_1SCzsm0Q3J9q34TtYOgUejPq.address.postal_code","person_1SD0540Q3J9q34TtETHdZZ4x.address.city","person_1SD0540Q3J9q34TtETHdZZ4x.address.line1","person_1SD0540Q3J9q34TtETHdZZ4x.address.postal_code"],"past_due":[],"pending_verification":[]},"settings":{"bacs_debit_payments":{"display_name":"Stripe","service_user_number":"449900"},"branding":{"icon":null,"logo":null,"primary_color":null,"secondary_color":null},"card_issuing":{"tos_acceptance":{"date":null,"ip":null}},"card_payments":{"statement_descriptor_prefix":null,"statement_descriptor_prefix_kana":null,"statement_descriptor_prefix_kanji":null},"dashboard":{"display_name":"WRBLO","timezone":"Europe/London"},"invoices":{"default_account_tax_ids":null,"hosted_payment_method_save":"offer"},"payments":{"statement_descriptor":"WRBLO","statement_descriptor_kana":null,"statement_descriptor_kanji":null},"payouts":{"debit_negative_balances":true,"schedule":{"delay_days":3,"interval":"weekly","weekly_anchor":"monday","weekly_payout_days":["monday"]},"statement_descriptor":null},"paypay_payments":{},"sepa_debit_payments":{}},"type":"standard"}}
+2026-06-06T12:18:14+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-06-06T12:18:14+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-06-06T12:18:16+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-06-06T12:18:16+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-06-06T15:23:40+00:00 DEBUG Stripe API request: GET account CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20"}
+2026-06-06T15:23:40+00:00 DEBUG Stripe API response: GET account CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20","response":{"id":"acct_1SCzgW0Q3J9q34Tt","object":"account","business_profile":{"annual_revenue":null,"estimated_worker_count":null,"mcc":"8398","minority_owned_business_designation":null,"name":"WRBLO","support_address":null,"support_email":null,"support_phone":"+443333397980","support_url":null,"url":"https://wrblo.org"},"business_type":"non_profit","capabilities":{"afterpay_clearpay_payments":"inactive","amazon_pay_payments":"active","bancontact_payments":"active","card_payments":"active","cartes_bancaires_payments":"pending","eps_payments":"active","kakao_pay_payments":"active","klarna_payments":"inactive","link_payments":"active","naver_pay_payments":"active","payco_payments":"active","revolut_pay_payments":"active","samsung_pay_payments":"active","transfers":"active"},"charges_enabled":true,"company":{"name":"WRBLO Community Interest Company","structure":"incorporated_non_profit"},"controller":{"type":"account"},"country":"GB","default_currency":"gbp","details_submitted":true,"email":"financeteam@wrblo.org","future_requirements":{"alternatives":[],"current_deadline":null,"currently_due":[],"disabled_reason":null,"errors":[],"eventually_due":[],"past_due":[],"pending_verification":[]},"metadata":{},"payouts_enabled":true,"requirements":{"alternatives":[{"alternative_fields_due":["directors.first_name","directors.last_name","documents.proof_of_registration.files"],"original_fields_due":["directors.first_name","directors.last_name"]},{"alternative_fields_due":["directors.first_name","directors.last_name","documents.proof_of_registration.files","documents.proof_of_registration.signer.person"],"original_fields_due":["directors.first_name","directors.last_name"]}],"current_deadline":1785301910,"currently_due":["directors.first_name","directors.last_name","person_1SCzs00Q3J9q34Tttpbwc6w7.address.city","person_1SCzs00Q3J9q34Tttpbwc6w7.address.line1","person_1SCzs00Q3J9q34Tttpbwc6w7.address.postal_code","person_1SCzsm0Q3J9q34TtYOgUejPq.address.city","person_1SCzsm0Q3J9q34TtYOgUejPq.address.line1","person_1SCzsm0Q3J9q34TtYOgUejPq.address.postal_code","person_1SD0540Q3J9q34TtETHdZZ4x.address.city","person_1SD0540Q3J9q34TtETHdZZ4x.address.line1","person_1SD0540Q3J9q34TtETHdZZ4x.address.postal_code"],"disabled_reason":null,"errors":[{"code":"verification_missing_directors","reason":"We identified that your business has directors that have not been added to the account. Please add missing directors to your account. The missing directors we have identified are: Stamatoula Panagiari, Justice Olusola Williams.","requirement":"directors.first_name"},{"code":"verification_missing_directors","reason":"We identified that your business has directors that have not been added to the account. Please add missing directors to your account. The missing directors we have identified are: Stamatoula Panagiari, Justice Olusola Williams.","requirement":"directors.last_name"}],"eventually_due":["directors.first_name","directors.last_name","person_1SCzs00Q3J9q34Tttpbwc6w7.address.city","person_1SCzs00Q3J9q34Tttpbwc6w7.address.line1","person_1SCzs00Q3J9q34Tttpbwc6w7.address.postal_code","person_1SCzsm0Q3J9q34TtYOgUejPq.address.city","person_1SCzsm0Q3J9q34TtYOgUejPq.address.line1","person_1SCzsm0Q3J9q34TtYOgUejPq.address.postal_code","person_1SD0540Q3J9q34TtETHdZZ4x.address.city","person_1SD0540Q3J9q34TtETHdZZ4x.address.line1","person_1SD0540Q3J9q34TtETHdZZ4x.address.postal_code"],"past_due":[],"pending_verification":[]},"settings":{"bacs_debit_payments":{"display_name":"Stripe","service_user_number":"449900"},"branding":{"icon":null,"logo":null,"primary_color":null,"secondary_color":null},"card_issuing":{"tos_acceptance":{"date":null,"ip":null}},"card_payments":{"statement_descriptor_prefix":null,"statement_descriptor_prefix_kana":null,"statement_descriptor_prefix_kanji":null},"dashboard":{"display_name":"WRBLO","timezone":"Europe/London"},"invoices":{"default_account_tax_ids":null,"hosted_payment_method_save":"offer"},"payments":{"statement_descriptor":"WRBLO","statement_descriptor_kana":null,"statement_descriptor_kanji":null},"payouts":{"debit_negative_balances":true,"schedule":{"delay_days":3,"interval":"weekly","weekly_anchor":"monday","weekly_payout_days":["monday"]},"statement_descriptor":null},"paypay_payments":{},"sepa_debit_payments":{}},"type":"standard"}}
+2026-06-06T16:24:26+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-06-06T16:24:26+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-06-06T16:24:31+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-06-06T16:24:31+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-06-06T16:25:11+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-06-06T16:25:11+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-06-06T16:50:18+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-06-06T16:50:18+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-06-06T16:50:50+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-06-06T16:50:50+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-06-06T17:35:36+00:00 DEBUG Stripe API request: GET account CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20"}
+2026-06-06T17:35:37+00:00 DEBUG Stripe API response: GET account CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20","response":{"id":"acct_1SCzgW0Q3J9q34Tt","object":"account","business_profile":{"annual_revenue":null,"estimated_worker_count":null,"mcc":"8398","minority_owned_business_designation":null,"name":"WRBLO","support_address":null,"support_email":null,"support_phone":"+443333397980","support_url":null,"url":"https://wrblo.org"},"business_type":"non_profit","capabilities":{"afterpay_clearpay_payments":"inactive","amazon_pay_payments":"active","bancontact_payments":"active","card_payments":"active","cartes_bancaires_payments":"pending","eps_payments":"active","kakao_pay_payments":"active","klarna_payments":"inactive","link_payments":"active","naver_pay_payments":"active","payco_payments":"active","revolut_pay_payments":"active","samsung_pay_payments":"active","transfers":"active"},"charges_enabled":true,"company":{"name":"WRBLO Community Interest Company","structure":"incorporated_non_profit"},"controller":{"type":"account"},"country":"GB","default_currency":"gbp","details_submitted":true,"email":"financeteam@wrblo.org","future_requirements":{"alternatives":[],"current_deadline":null,"currently_due":[],"disabled_reason":null,"errors":[],"eventually_due":[],"past_due":[],"pending_verification":[]},"metadata":{},"payouts_enabled":true,"requirements":{"alternatives":[{"alternative_fields_due":["directors.first_name","directors.last_name","documents.proof_of_registration.files"],"original_fields_due":["directors.first_name","directors.last_name"]},{"alternative_fields_due":["directors.first_name","directors.last_name","documents.proof_of_registration.files","documents.proof_of_registration.signer.person"],"original_fields_due":["directors.first_name","directors.last_name"]}],"current_deadline":1785301910,"currently_due":["directors.first_name","directors.last_name","person_1SCzs00Q3J9q34Tttpbwc6w7.address.city","person_1SCzs00Q3J9q34Tttpbwc6w7.address.line1","person_1SCzs00Q3J9q34Tttpbwc6w7.address.postal_code","person_1SCzsm0Q3J9q34TtYOgUejPq.address.city","person_1SCzsm0Q3J9q34TtYOgUejPq.address.line1","person_1SCzsm0Q3J9q34TtYOgUejPq.address.postal_code","person_1SD0540Q3J9q34TtETHdZZ4x.address.city","person_1SD0540Q3J9q34TtETHdZZ4x.address.line1","person_1SD0540Q3J9q34TtETHdZZ4x.address.postal_code"],"disabled_reason":null,"errors":[{"code":"verification_missing_directors","reason":"We identified that your business has directors that have not been added to the account. Please add missing directors to your account. The missing directors we have identified are: Stamatoula Panagiari, Justice Olusola Williams.","requirement":"directors.first_name"},{"code":"verification_missing_directors","reason":"We identified that your business has directors that have not been added to the account. Please add missing directors to your account. The missing directors we have identified are: Stamatoula Panagiari, Justice Olusola Williams.","requirement":"directors.last_name"}],"eventually_due":["directors.first_name","directors.last_name","person_1SCzs00Q3J9q34Tttpbwc6w7.address.city","person_1SCzs00Q3J9q34Tttpbwc6w7.address.line1","person_1SCzs00Q3J9q34Tttpbwc6w7.address.postal_code","person_1SCzsm0Q3J9q34TtYOgUejPq.address.city","person_1SCzsm0Q3J9q34TtYOgUejPq.address.line1","person_1SCzsm0Q3J9q34TtYOgUejPq.address.postal_code","person_1SD0540Q3J9q34TtETHdZZ4x.address.city","person_1SD0540Q3J9q34TtETHdZZ4x.address.line1","person_1SD0540Q3J9q34TtETHdZZ4x.address.postal_code"],"past_due":[],"pending_verification":[]},"settings":{"bacs_debit_payments":{"display_name":"Stripe","service_user_number":"449900"},"branding":{"icon":null,"logo":null,"primary_color":null,"secondary_color":null},"card_issuing":{"tos_acceptance":{"date":null,"ip":null}},"card_payments":{"statement_descriptor_prefix":null,"statement_descriptor_prefix_kana":null,"statement_descriptor_prefix_kanji":null},"dashboard":{"display_name":"WRBLO","timezone":"Europe/London"},"invoices":{"default_account_tax_ids":null,"hosted_payment_method_save":"offer"},"payments":{"statement_descriptor":"WRBLO","statement_descriptor_kana":null,"statement_descriptor_kanji":null},"payouts":{"debit_negative_balances":true,"schedule":{"delay_days":3,"interval":"weekly","weekly_anchor":"monday","weekly_payout_days":["monday"]},"statement_descriptor":null},"paypay_payments":{},"sepa_debit_payments":{}},"type":"standard"}}
+2026-06-06T17:48:19+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-06-06T17:48:19+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-06-06T19:47:37+00:00 DEBUG Stripe API request: GET account CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20"}
+2026-06-06T19:47:37+00:00 DEBUG Stripe API response: GET account CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20","response":{"id":"acct_1SCzgW0Q3J9q34Tt","object":"account","business_profile":{"annual_revenue":null,"estimated_worker_count":null,"mcc":"8398","minority_owned_business_designation":null,"name":"WRBLO","support_address":null,"support_email":null,"support_phone":"+443333397980","support_url":null,"url":"https://wrblo.org"},"business_type":"non_profit","capabilities":{"afterpay_clearpay_payments":"inactive","amazon_pay_payments":"active","bancontact_payments":"active","card_payments":"active","cartes_bancaires_payments":"pending","eps_payments":"active","kakao_pay_payments":"active","klarna_payments":"inactive","link_payments":"active","naver_pay_payments":"active","payco_payments":"active","revolut_pay_payments":"active","samsung_pay_payments":"active","transfers":"active"},"charges_enabled":true,"company":{"name":"WRBLO Community Interest Company","structure":"incorporated_non_profit"},"controller":{"type":"account"},"country":"GB","default_currency":"gbp","details_submitted":true,"email":"financeteam@wrblo.org","future_requirements":{"alternatives":[],"current_deadline":null,"currently_due":[],"disabled_reason":null,"errors":[],"eventually_due":[],"past_due":[],"pending_verification":[]},"metadata":{},"payouts_enabled":true,"requirements":{"alternatives":[{"alternative_fields_due":["directors.first_name","directors.last_name","documents.proof_of_registration.files"],"original_fields_due":["directors.first_name","directors.last_name"]},{"alternative_fields_due":["directors.first_name","directors.last_name","documents.proof_of_registration.files","documents.proof_of_registration.signer.person"],"original_fields_due":["directors.first_name","directors.last_name"]}],"current_deadline":1785301910,"currently_due":["directors.first_name","directors.last_name","person_1SCzs00Q3J9q34Tttpbwc6w7.address.city","person_1SCzs00Q3J9q34Tttpbwc6w7.address.line1","person_1SCzs00Q3J9q34Tttpbwc6w7.address.postal_code","person_1SCzsm0Q3J9q34TtYOgUejPq.address.city","person_1SCzsm0Q3J9q34TtYOgUejPq.address.line1","person_1SCzsm0Q3J9q34TtYOgUejPq.address.postal_code","person_1SD0540Q3J9q34TtETHdZZ4x.address.city","person_1SD0540Q3J9q34TtETHdZZ4x.address.line1","person_1SD0540Q3J9q34TtETHdZZ4x.address.postal_code"],"disabled_reason":null,"errors":[{"code":"verification_missing_directors","reason":"We identified that your business has directors that have not been added to the account. Please add missing directors to your account. The missing directors we have identified are: Stamatoula Panagiari, Justice Olusola Williams.","requirement":"directors.first_name"},{"code":"verification_missing_directors","reason":"We identified that your business has directors that have not been added to the account. Please add missing directors to your account. The missing directors we have identified are: Stamatoula Panagiari, Justice Olusola Williams.","requirement":"directors.last_name"}],"eventually_due":["directors.first_name","directors.last_name","person_1SCzs00Q3J9q34Tttpbwc6w7.address.city","person_1SCzs00Q3J9q34Tttpbwc6w7.address.line1","person_1SCzs00Q3J9q34Tttpbwc6w7.address.postal_code","person_1SCzsm0Q3J9q34TtYOgUejPq.address.city","person_1SCzsm0Q3J9q34TtYOgUejPq.address.line1","person_1SCzsm0Q3J9q34TtYOgUejPq.address.postal_code","person_1SD0540Q3J9q34TtETHdZZ4x.address.city","person_1SD0540Q3J9q34TtETHdZZ4x.address.line1","person_1SD0540Q3J9q34TtETHdZZ4x.address.postal_code"],"past_due":[],"pending_verification":[]},"settings":{"bacs_debit_payments":{"display_name":"Stripe","service_user_number":"449900"},"branding":{"icon":null,"logo":null,"primary_color":null,"secondary_color":null},"card_issuing":{"tos_acceptance":{"date":null,"ip":null}},"card_payments":{"statement_descriptor_prefix":null,"statement_descriptor_prefix_kana":null,"statement_descriptor_prefix_kanji":null},"dashboard":{"display_name":"WRBLO","timezone":"Europe/London"},"invoices":{"default_account_tax_ids":null,"hosted_payment_method_save":"offer"},"payments":{"statement_descriptor":"WRBLO","statement_descriptor_kana":null,"statement_descriptor_kanji":null},"payouts":{"debit_negative_balances":true,"schedule":{"delay_days":3,"interval":"weekly","weekly_anchor":"monday","weekly_payout_days":["monday"]},"statement_descriptor":null},"paypay_payments":{},"sepa_debit_payments":{}},"type":"standard"}}
+2026-06-06T20:47:53+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-06-06T20:47:53+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-06-06T20:59:29+00:00 INFO Starting asynchronous cache cleanup [run_id: 15451] CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20","max_rows":500,"job_data":{"run_id":15451,"processed":0,"deleted":0,"job_runs":1,"last_key":null}}
+2026-06-06T20:59:29+00:00 INFO Asynchronous cache cleanup complete: 1 entries processed, 0 stale entries deleted [run_id: 15451] CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20","max_rows":500,"job_data":{"run_id":15451,"processed":1,"deleted":0,"job_runs":1,"last_key":"wcstripe_cache_live_account_data"}}
+2026-06-06T22:07:39+00:00 DEBUG Stripe API request: GET account CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20"}
+2026-06-06T22:07:40+00:00 DEBUG Stripe API response: GET account CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20","response":{"id":"acct_1SCzgW0Q3J9q34Tt","object":"account","business_profile":{"annual_revenue":null,"estimated_worker_count":null,"mcc":"8398","minority_owned_business_designation":null,"name":"WRBLO","support_address":null,"support_email":null,"support_phone":"+443333397980","support_url":null,"url":"https://wrblo.org"},"business_type":"non_profit","capabilities":{"afterpay_clearpay_payments":"inactive","amazon_pay_payments":"active","bancontact_payments":"active","card_payments":"active","cartes_bancaires_payments":"pending","eps_payments":"active","kakao_pay_payments":"active","klarna_payments":"inactive","link_payments":"active","naver_pay_payments":"active","payco_payments":"active","revolut_pay_payments":"active","samsung_pay_payments":"active","transfers":"active"},"charges_enabled":true,"company":{"name":"WRBLO Community Interest Company","structure":"incorporated_non_profit"},"controller":{"type":"account"},"country":"GB","default_currency":"gbp","details_submitted":true,"email":"financeteam@wrblo.org","future_requirements":{"alternatives":[],"current_deadline":null,"currently_due":[],"disabled_reason":null,"errors":[],"eventually_due":[],"past_due":[],"pending_verification":[]},"metadata":{},"payouts_enabled":true,"requirements":{"alternatives":[{"alternative_fields_due":["directors.first_name","directors.last_name","documents.proof_of_registration.files"],"original_fields_due":["directors.first_name","directors.last_name"]},{"alternative_fields_due":["directors.first_name","directors.last_name","documents.proof_of_registration.files","documents.proof_of_registration.signer.person"],"original_fields_due":["directors.first_name","directors.last_name"]}],"current_deadline":1785301910,"currently_due":["directors.first_name","directors.last_name","person_1SCzs00Q3J9q34Tttpbwc6w7.address.city","person_1SCzs00Q3J9q34Tttpbwc6w7.address.line1","person_1SCzs00Q3J9q34Tttpbwc6w7.address.postal_code","person_1SCzsm0Q3J9q34TtYOgUejPq.address.city","person_1SCzsm0Q3J9q34TtYOgUejPq.address.line1","person_1SCzsm0Q3J9q34TtYOgUejPq.address.postal_code","person_1SD0540Q3J9q34TtETHdZZ4x.address.city","person_1SD0540Q3J9q34TtETHdZZ4x.address.line1","person_1SD0540Q3J9q34TtETHdZZ4x.address.postal_code"],"disabled_reason":null,"errors":[{"code":"verification_missing_directors","reason":"We identified that your business has directors that have not been added to the account. Please add missing directors to your account. The missing directors we have identified are: Stamatoula Panagiari, Justice Olusola Williams.","requirement":"directors.first_name"},{"code":"verification_missing_directors","reason":"We identified that your business has directors that have not been added to the account. Please add missing directors to your account. The missing directors we have identified are: Stamatoula Panagiari, Justice Olusola Williams.","requirement":"directors.last_name"}],"eventually_due":["directors.first_name","directors.last_name","person_1SCzs00Q3J9q34Tttpbwc6w7.address.city","person_1SCzs00Q3J9q34Tttpbwc6w7.address.line1","person_1SCzs00Q3J9q34Tttpbwc6w7.address.postal_code","person_1SCzsm0Q3J9q34TtYOgUejPq.address.city","person_1SCzsm0Q3J9q34TtYOgUejPq.address.line1","person_1SCzsm0Q3J9q34TtYOgUejPq.address.postal_code","person_1SD0540Q3J9q34TtETHdZZ4x.address.city","person_1SD0540Q3J9q34TtETHdZZ4x.address.line1","person_1SD0540Q3J9q34TtETHdZZ4x.address.postal_code"],"past_due":[],"pending_verification":[]},"settings":{"bacs_debit_payments":{"display_name":"Stripe","service_user_number":"449900"},"branding":{"icon":null,"logo":null,"primary_color":null,"secondary_color":null},"card_issuing":{"tos_acceptance":{"date":null,"ip":null}},"card_payments":{"statement_descriptor_prefix":null,"statement_descriptor_prefix_kana":null,"statement_descriptor_prefix_kanji":null},"dashboard":{"display_name":"WRBLO","timezone":"Europe/London"},"invoices":{"default_account_tax_ids":null,"hosted_payment_method_save":"offer"},"payments":{"statement_descriptor":"WRBLO","statement_descriptor_kana":null,"statement_descriptor_kanji":null},"payouts":{"debit_negative_balances":true,"schedule":{"delay_days":3,"interval":"weekly","weekly_anchor":"monday","weekly_payout_days":["monday"]},"statement_descriptor":null},"paypay_payments":{},"sepa_debit_payments":{}},"type":"standard"}}

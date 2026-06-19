@@ -1,0 +1,453 @@
+2026-05-24T01:30:52+00:00 DEBUG Stripe API request: GET account CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20"}
+2026-05-24T01:30:52+00:00 DEBUG Stripe API response: GET account CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20","response":{"id":"acct_1SCzgW0Q3J9q34Tt","object":"account","business_profile":{"annual_revenue":null,"estimated_worker_count":null,"mcc":"8398","minority_owned_business_designation":null,"name":"WRBLO","support_address":null,"support_email":null,"support_phone":"+443333397980","support_url":null,"url":"https://wrblo.org"},"business_type":"non_profit","capabilities":{"afterpay_clearpay_payments":"inactive","amazon_pay_payments":"active","bancontact_payments":"active","card_payments":"active","cartes_bancaires_payments":"pending","eps_payments":"active","kakao_pay_payments":"active","klarna_payments":"inactive","link_payments":"active","naver_pay_payments":"active","payco_payments":"active","revolut_pay_payments":"active","samsung_pay_payments":"active","transfers":"active"},"charges_enabled":true,"company":{"name":"WRBLO Community Interest Company","structure":"incorporated_non_profit"},"controller":{"type":"account"},"country":"GB","default_currency":"gbp","details_submitted":true,"email":"financeteam@wrblo.org","future_requirements":{"alternatives":[],"current_deadline":null,"currently_due":[],"disabled_reason":null,"errors":[],"eventually_due":[],"past_due":[],"pending_verification":[]},"metadata":{},"payouts_enabled":true,"requirements":{"alternatives":[],"current_deadline":null,"currently_due":[],"disabled_reason":null,"errors":[],"eventually_due":[],"past_due":[],"pending_verification":[]},"settings":{"bacs_debit_payments":{"display_name":"Stripe","service_user_number":"449900"},"branding":{"icon":null,"logo":null,"primary_color":null,"secondary_color":null},"card_issuing":{"tos_acceptance":{"date":null,"ip":null}},"card_payments":{"statement_descriptor_prefix":null,"statement_descriptor_prefix_kana":null,"statement_descriptor_prefix_kanji":null},"dashboard":{"display_name":"WRBLO","timezone":"Europe/London"},"invoices":{"default_account_tax_ids":null,"hosted_payment_method_save":"offer"},"payments":{"statement_descriptor":"WRBLO","statement_descriptor_kana":null,"statement_descriptor_kanji":null},"payouts":{"debit_negative_balances":true,"schedule":{"delay_days":3,"interval":"weekly","weekly_anchor":"monday","weekly_payout_days":["monday"]},"statement_descriptor":null},"paypay_payments":{},"sepa_debit_payments":{}},"type":"standard"}}
+2026-05-24T03:53:38+00:00 DEBUG Stripe API request: GET account CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20"}
+2026-05-24T03:53:38+00:00 DEBUG Stripe API response: GET account CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20","response":{"id":"acct_1SCzgW0Q3J9q34Tt","object":"account","business_profile":{"annual_revenue":null,"estimated_worker_count":null,"mcc":"8398","minority_owned_business_designation":null,"name":"WRBLO","support_address":null,"support_email":null,"support_phone":"+443333397980","support_url":null,"url":"https://wrblo.org"},"business_type":"non_profit","capabilities":{"afterpay_clearpay_payments":"inactive","amazon_pay_payments":"active","bancontact_payments":"active","card_payments":"active","cartes_bancaires_payments":"pending","eps_payments":"active","kakao_pay_payments":"active","klarna_payments":"inactive","link_payments":"active","naver_pay_payments":"active","payco_payments":"active","revolut_pay_payments":"active","samsung_pay_payments":"active","transfers":"active"},"charges_enabled":true,"company":{"name":"WRBLO Community Interest Company","structure":"incorporated_non_profit"},"controller":{"type":"account"},"country":"GB","default_currency":"gbp","details_submitted":true,"email":"financeteam@wrblo.org","future_requirements":{"alternatives":[],"current_deadline":null,"currently_due":[],"disabled_reason":null,"errors":[],"eventually_due":[],"past_due":[],"pending_verification":[]},"metadata":{},"payouts_enabled":true,"requirements":{"alternatives":[],"current_deadline":null,"currently_due":[],"disabled_reason":null,"errors":[],"eventually_due":[],"past_due":[],"pending_verification":[]},"settings":{"bacs_debit_payments":{"display_name":"Stripe","service_user_number":"449900"},"branding":{"icon":null,"logo":null,"primary_color":null,"secondary_color":null},"card_issuing":{"tos_acceptance":{"date":null,"ip":null}},"card_payments":{"statement_descriptor_prefix":null,"statement_descriptor_prefix_kana":null,"statement_descriptor_prefix_kanji":null},"dashboard":{"display_name":"WRBLO","timezone":"Europe/London"},"invoices":{"default_account_tax_ids":null,"hosted_payment_method_save":"offer"},"payments":{"statement_descriptor":"WRBLO","statement_descriptor_kana":null,"statement_descriptor_kanji":null},"payouts":{"debit_negative_balances":true,"schedule":{"delay_days":3,"interval":"weekly","weekly_anchor":"monday","weekly_payout_days":["monday"]},"statement_descriptor":null},"paypay_payments":{},"sepa_debit_payments":{}},"type":"standard"}}
+2026-05-24T06:10:44+00:00 DEBUG Stripe API request: GET account CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20"}
+2026-05-24T06:10:45+00:00 DEBUG Stripe API response: GET account CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20","response":{"id":"acct_1SCzgW0Q3J9q34Tt","object":"account","business_profile":{"annual_revenue":null,"estimated_worker_count":null,"mcc":"8398","minority_owned_business_designation":null,"name":"WRBLO","support_address":null,"support_email":null,"support_phone":"+443333397980","support_url":null,"url":"https://wrblo.org"},"business_type":"non_profit","capabilities":{"afterpay_clearpay_payments":"inactive","amazon_pay_payments":"active","bancontact_payments":"active","card_payments":"active","cartes_bancaires_payments":"pending","eps_payments":"active","kakao_pay_payments":"active","klarna_payments":"inactive","link_payments":"active","naver_pay_payments":"active","payco_payments":"active","revolut_pay_payments":"active","samsung_pay_payments":"active","transfers":"active"},"charges_enabled":true,"company":{"name":"WRBLO Community Interest Company","structure":"incorporated_non_profit"},"controller":{"type":"account"},"country":"GB","default_currency":"gbp","details_submitted":true,"email":"financeteam@wrblo.org","future_requirements":{"alternatives":[],"current_deadline":null,"currently_due":[],"disabled_reason":null,"errors":[],"eventually_due":[],"past_due":[],"pending_verification":[]},"metadata":{},"payouts_enabled":true,"requirements":{"alternatives":[],"current_deadline":null,"currently_due":[],"disabled_reason":null,"errors":[],"eventually_due":[],"past_due":[],"pending_verification":[]},"settings":{"bacs_debit_payments":{"display_name":"Stripe","service_user_number":"449900"},"branding":{"icon":null,"logo":null,"primary_color":null,"secondary_color":null},"card_issuing":{"tos_acceptance":{"date":null,"ip":null}},"card_payments":{"statement_descriptor_prefix":null,"statement_descriptor_prefix_kana":null,"statement_descriptor_prefix_kanji":null},"dashboard":{"display_name":"WRBLO","timezone":"Europe/London"},"invoices":{"default_account_tax_ids":null,"hosted_payment_method_save":"offer"},"payments":{"statement_descriptor":"WRBLO","statement_descriptor_kana":null,"statement_descriptor_kanji":null},"payouts":{"debit_negative_balances":true,"schedule":{"delay_days":3,"interval":"weekly","weekly_anchor":"monday","weekly_payout_days":["monday"]},"statement_descriptor":null},"paypay_payments":{},"sepa_debit_payments":{}},"type":"standard"}}
+2026-05-24T06:10:45+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T06:10:45+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T06:10:47+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T06:10:47+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T06:27:33+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T06:27:33+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T06:27:35+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T06:27:35+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T06:40:34+00:00 DEBUG Daily asynchronous cache cleanup already scheduled CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20"}
+2026-05-24T08:22:23+00:00 DEBUG Stripe API request: GET account CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20"}
+2026-05-24T08:22:24+00:00 DEBUG Stripe API response: GET account CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20","response":{"id":"acct_1SCzgW0Q3J9q34Tt","object":"account","business_profile":{"annual_revenue":null,"estimated_worker_count":null,"mcc":"8398","minority_owned_business_designation":null,"name":"WRBLO","support_address":null,"support_email":null,"support_phone":"+443333397980","support_url":null,"url":"https://wrblo.org"},"business_type":"non_profit","capabilities":{"afterpay_clearpay_payments":"inactive","amazon_pay_payments":"active","bancontact_payments":"active","card_payments":"active","cartes_bancaires_payments":"pending","eps_payments":"active","kakao_pay_payments":"active","klarna_payments":"inactive","link_payments":"active","naver_pay_payments":"active","payco_payments":"active","revolut_pay_payments":"active","samsung_pay_payments":"active","transfers":"active"},"charges_enabled":true,"company":{"name":"WRBLO Community Interest Company","structure":"incorporated_non_profit"},"controller":{"type":"account"},"country":"GB","default_currency":"gbp","details_submitted":true,"email":"financeteam@wrblo.org","future_requirements":{"alternatives":[],"current_deadline":null,"currently_due":[],"disabled_reason":null,"errors":[],"eventually_due":[],"past_due":[],"pending_verification":[]},"metadata":{},"payouts_enabled":true,"requirements":{"alternatives":[],"current_deadline":null,"currently_due":[],"disabled_reason":null,"errors":[],"eventually_due":[],"past_due":[],"pending_verification":[]},"settings":{"bacs_debit_payments":{"display_name":"Stripe","service_user_number":"449900"},"branding":{"icon":null,"logo":null,"primary_color":null,"secondary_color":null},"card_issuing":{"tos_acceptance":{"date":null,"ip":null}},"card_payments":{"statement_descriptor_prefix":null,"statement_descriptor_prefix_kana":null,"statement_descriptor_prefix_kanji":null},"dashboard":{"display_name":"WRBLO","timezone":"Europe/London"},"invoices":{"default_account_tax_ids":null,"hosted_payment_method_save":"offer"},"payments":{"statement_descriptor":"WRBLO","statement_descriptor_kana":null,"statement_descriptor_kanji":null},"payouts":{"debit_negative_balances":true,"schedule":{"delay_days":3,"interval":"weekly","weekly_anchor":"monday","weekly_payout_days":["monday"]},"statement_descriptor":null},"paypay_payments":{},"sepa_debit_payments":{}},"type":"standard"}}
+2026-05-24T08:22:24+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T08:22:24+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T09:17:50+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T09:17:50+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T09:18:22+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T09:18:22+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T09:18:37+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T09:18:37+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T09:19:09+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T09:19:09+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T09:19:25+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T09:19:25+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T10:19:58+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T10:19:59+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T10:20:03+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T10:20:03+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T10:20:04+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T10:20:05+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T10:20:08+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T10:20:08+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T10:20:09+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T10:20:09+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T10:20:10+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T10:20:11+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T10:20:11+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T10:20:11+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T12:40:39+00:00 DEBUG Stripe API request: GET account CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20"}
+2026-05-24T12:40:40+00:00 DEBUG Stripe API response: GET account CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20","response":{"id":"acct_1SCzgW0Q3J9q34Tt","object":"account","business_profile":{"annual_revenue":null,"estimated_worker_count":null,"mcc":"8398","minority_owned_business_designation":null,"name":"WRBLO","support_address":null,"support_email":null,"support_phone":"+443333397980","support_url":null,"url":"https://wrblo.org"},"business_type":"non_profit","capabilities":{"afterpay_clearpay_payments":"inactive","amazon_pay_payments":"active","bancontact_payments":"active","card_payments":"active","cartes_bancaires_payments":"pending","eps_payments":"active","kakao_pay_payments":"active","klarna_payments":"inactive","link_payments":"active","naver_pay_payments":"active","payco_payments":"active","revolut_pay_payments":"active","samsung_pay_payments":"active","transfers":"active"},"charges_enabled":true,"company":{"name":"WRBLO Community Interest Company","structure":"incorporated_non_profit"},"controller":{"type":"account"},"country":"GB","default_currency":"gbp","details_submitted":true,"email":"financeteam@wrblo.org","future_requirements":{"alternatives":[],"current_deadline":null,"currently_due":[],"disabled_reason":null,"errors":[],"eventually_due":[],"past_due":[],"pending_verification":[]},"metadata":{},"payouts_enabled":true,"requirements":{"alternatives":[],"current_deadline":null,"currently_due":[],"disabled_reason":null,"errors":[],"eventually_due":[],"past_due":[],"pending_verification":[]},"settings":{"bacs_debit_payments":{"display_name":"Stripe","service_user_number":"449900"},"branding":{"icon":null,"logo":null,"primary_color":null,"secondary_color":null},"card_issuing":{"tos_acceptance":{"date":null,"ip":null}},"card_payments":{"statement_descriptor_prefix":null,"statement_descriptor_prefix_kana":null,"statement_descriptor_prefix_kanji":null},"dashboard":{"display_name":"WRBLO","timezone":"Europe/London"},"invoices":{"default_account_tax_ids":null,"hosted_payment_method_save":"offer"},"payments":{"statement_descriptor":"WRBLO","statement_descriptor_kana":null,"statement_descriptor_kanji":null},"payouts":{"debit_negative_balances":true,"schedule":{"delay_days":3,"interval":"weekly","weekly_anchor":"monday","weekly_payout_days":["monday"]},"statement_descriptor":null},"paypay_payments":{},"sepa_debit_payments":{}},"type":"standard"}}
+2026-05-24T17:11:56+00:00 DEBUG Stripe API request: GET account CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20"}
+2026-05-24T17:11:56+00:00 DEBUG Stripe API response: GET account CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20","response":{"id":"acct_1SCzgW0Q3J9q34Tt","object":"account","business_profile":{"annual_revenue":null,"estimated_worker_count":null,"mcc":"8398","minority_owned_business_designation":null,"name":"WRBLO","support_address":null,"support_email":null,"support_phone":"+443333397980","support_url":null,"url":"https://wrblo.org"},"business_type":"non_profit","capabilities":{"afterpay_clearpay_payments":"inactive","amazon_pay_payments":"active","bancontact_payments":"active","card_payments":"active","cartes_bancaires_payments":"pending","eps_payments":"active","kakao_pay_payments":"active","klarna_payments":"inactive","link_payments":"active","naver_pay_payments":"active","payco_payments":"active","revolut_pay_payments":"active","samsung_pay_payments":"active","transfers":"active"},"charges_enabled":true,"company":{"name":"WRBLO Community Interest Company","structure":"incorporated_non_profit"},"controller":{"type":"account"},"country":"GB","default_currency":"gbp","details_submitted":true,"email":"financeteam@wrblo.org","future_requirements":{"alternatives":[],"current_deadline":null,"currently_due":[],"disabled_reason":null,"errors":[],"eventually_due":[],"past_due":[],"pending_verification":[]},"metadata":{},"payouts_enabled":true,"requirements":{"alternatives":[],"current_deadline":null,"currently_due":[],"disabled_reason":null,"errors":[],"eventually_due":[],"past_due":[],"pending_verification":[]},"settings":{"bacs_debit_payments":{"display_name":"Stripe","service_user_number":"449900"},"branding":{"icon":null,"logo":null,"primary_color":null,"secondary_color":null},"card_issuing":{"tos_acceptance":{"date":null,"ip":null}},"card_payments":{"statement_descriptor_prefix":null,"statement_descriptor_prefix_kana":null,"statement_descriptor_prefix_kanji":null},"dashboard":{"display_name":"WRBLO","timezone":"Europe/London"},"invoices":{"default_account_tax_ids":null,"hosted_payment_method_save":"offer"},"payments":{"statement_descriptor":"WRBLO","statement_descriptor_kana":null,"statement_descriptor_kanji":null},"payouts":{"debit_negative_balances":true,"schedule":{"delay_days":3,"interval":"weekly","weekly_anchor":"monday","weekly_payout_days":["monday"]},"statement_descriptor":null},"paypay_payments":{},"sepa_debit_payments":{}},"type":"standard"}}
+2026-05-24T17:18:00+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T17:18:00+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T20:08:12+00:00 DEBUG Stripe API request: GET account CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20"}
+2026-05-24T20:08:12+00:00 DEBUG Stripe API response: GET account CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20","response":{"id":"acct_1SCzgW0Q3J9q34Tt","object":"account","business_profile":{"annual_revenue":null,"estimated_worker_count":null,"mcc":"8398","minority_owned_business_designation":null,"name":"WRBLO","support_address":null,"support_email":null,"support_phone":"+443333397980","support_url":null,"url":"https://wrblo.org"},"business_type":"non_profit","capabilities":{"afterpay_clearpay_payments":"inactive","amazon_pay_payments":"active","bancontact_payments":"active","card_payments":"active","cartes_bancaires_payments":"pending","eps_payments":"active","kakao_pay_payments":"active","klarna_payments":"inactive","link_payments":"active","naver_pay_payments":"active","payco_payments":"active","revolut_pay_payments":"active","samsung_pay_payments":"active","transfers":"active"},"charges_enabled":true,"company":{"name":"WRBLO Community Interest Company","structure":"incorporated_non_profit"},"controller":{"type":"account"},"country":"GB","default_currency":"gbp","details_submitted":true,"email":"financeteam@wrblo.org","future_requirements":{"alternatives":[],"current_deadline":null,"currently_due":[],"disabled_reason":null,"errors":[],"eventually_due":[],"past_due":[],"pending_verification":[]},"metadata":{},"payouts_enabled":true,"requirements":{"alternatives":[],"current_deadline":null,"currently_due":[],"disabled_reason":null,"errors":[],"eventually_due":[],"past_due":[],"pending_verification":[]},"settings":{"bacs_debit_payments":{"display_name":"Stripe","service_user_number":"449900"},"branding":{"icon":null,"logo":null,"primary_color":null,"secondary_color":null},"card_issuing":{"tos_acceptance":{"date":null,"ip":null}},"card_payments":{"statement_descriptor_prefix":null,"statement_descriptor_prefix_kana":null,"statement_descriptor_prefix_kanji":null},"dashboard":{"display_name":"WRBLO","timezone":"Europe/London"},"invoices":{"default_account_tax_ids":null,"hosted_payment_method_save":"offer"},"payments":{"statement_descriptor":"WRBLO","statement_descriptor_kana":null,"statement_descriptor_kanji":null},"payouts":{"debit_negative_balances":true,"schedule":{"delay_days":3,"interval":"weekly","weekly_anchor":"monday","weekly_payout_days":["monday"]},"statement_descriptor":null},"paypay_payments":{},"sepa_debit_payments":{}},"type":"standard"}}
+2026-05-24T20:08:12+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T20:08:12+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T20:11:50+00:00 INFO Starting asynchronous cache cleanup [run_id: 544130] CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20","max_rows":500,"job_data":{"run_id":544130,"processed":0,"deleted":0,"job_runs":1,"last_key":null}}
+2026-05-24T20:11:50+00:00 INFO Asynchronous cache cleanup complete: 1 entries processed, 0 stale entries deleted [run_id: 544130] CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20","max_rows":500,"job_data":{"run_id":544130,"processed":1,"deleted":0,"job_runs":1,"last_key":"wcstripe_cache_live_account_data"}}
+2026-05-24T21:43:06+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T21:43:06+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T21:43:24+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T21:43:25+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T21:43:47+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T21:43:47+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T21:44:11+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T21:44:11+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T21:44:36+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T21:44:36+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T21:45:01+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T21:45:02+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T21:45:25+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T21:45:25+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T21:45:47+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T21:45:47+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T21:46:09+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T21:46:09+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T21:46:32+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T21:46:32+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T21:46:55+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T21:46:55+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T22:08:13+00:00 DEBUG Stripe API request: GET account CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20"}
+2026-05-24T22:08:13+00:00 DEBUG Stripe API response: GET account CONTEXT: {"stripe_version":"9.9.2","stripe_api_version":"2024-06-20","response":{"id":"acct_1SCzgW0Q3J9q34Tt","object":"account","business_profile":{"annual_revenue":null,"estimated_worker_count":null,"mcc":"8398","minority_owned_business_designation":null,"name":"WRBLO","support_address":null,"support_email":null,"support_phone":"+443333397980","support_url":null,"url":"https://wrblo.org"},"business_type":"non_profit","capabilities":{"afterpay_clearpay_payments":"inactive","amazon_pay_payments":"active","bancontact_payments":"active","card_payments":"active","cartes_bancaires_payments":"pending","eps_payments":"active","kakao_pay_payments":"active","klarna_payments":"inactive","link_payments":"active","naver_pay_payments":"active","payco_payments":"active","revolut_pay_payments":"active","samsung_pay_payments":"active","transfers":"active"},"charges_enabled":true,"company":{"name":"WRBLO Community Interest Company","structure":"incorporated_non_profit"},"controller":{"type":"account"},"country":"GB","default_currency":"gbp","details_submitted":true,"email":"financeteam@wrblo.org","future_requirements":{"alternatives":[],"current_deadline":null,"currently_due":[],"disabled_reason":null,"errors":[],"eventually_due":[],"past_due":[],"pending_verification":[]},"metadata":{},"payouts_enabled":true,"requirements":{"alternatives":[],"current_deadline":null,"currently_due":[],"disabled_reason":null,"errors":[],"eventually_due":[],"past_due":[],"pending_verification":[]},"settings":{"bacs_debit_payments":{"display_name":"Stripe","service_user_number":"449900"},"branding":{"icon":null,"logo":null,"primary_color":null,"secondary_color":null},"card_issuing":{"tos_acceptance":{"date":null,"ip":null}},"card_payments":{"statement_descriptor_prefix":null,"statement_descriptor_prefix_kana":null,"statement_descriptor_prefix_kanji":null},"dashboard":{"display_name":"WRBLO","timezone":"Europe/London"},"invoices":{"default_account_tax_ids":null,"hosted_payment_method_save":"offer"},"payments":{"statement_descriptor":"WRBLO","statement_descriptor_kana":null,"statement_descriptor_kanji":null},"payouts":{"debit_negative_balances":true,"schedule":{"delay_days":3,"interval":"weekly","weekly_anchor":"monday","weekly_payout_days":["monday"]},"statement_descriptor":null},"paypay_payments":{},"sepa_debit_payments":{}},"type":"standard"}}
+2026-05-24T22:34:32+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+
+2026-05-24T22:34:32+00:00 DEBUG 
+====Stripe Version: 9.9.2====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Stripe Express Checkout does not support free products.
+====End Log====
+

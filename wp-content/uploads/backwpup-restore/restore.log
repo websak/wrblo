@@ -1,0 +1,2 @@
+[2026-01-14T16:22:57.604325+00:00] restore.WARNING: [8] Trying to get property 'logfile' of non-object (/var/www/vhosts/wrblo.org/wp-content/plugins/backwpup/inc/class-page-jobs.php on Line 1058) | PHP 7.4.3 (Linux) [] []
+[2026-04-29T15:47:00.888846+00:00] restore.WARNING: [8] Trying to access array offset on value of type null (/var/www/vhosts/wrblo.org/wp-content/plugins/wordfence/lib/wfIssues.php on Line 578) | PHP 7.4.3 (Linux) [] []

@@ -1,0 +1,107 @@
+.edgtf-image-with-text {
+
+	img {
+		vertical-align: middle;
+	}
+
+	.edgtf-image-with-text-info {
+		padding-top: 20px;
+		text-align: center;
+	}
+
+	&.edgtf-text-align-left{
+		.edgtf-image-with-text-info{
+			text-align: left;
+		}
+	}
+
+	&.edgtf-text-align-right{
+		.edgtf-image-with-text-info{
+			text-align: right;
+		}
+	}
+
+	p.edgtf-image-with-text-text a{
+		font-family: $first-main-font;
+		font-size: 17px;
+		color: $default-text-color;
+		font-style: italic;
+		@include edgtfTransition(all 0.3s ease-in-out);
+	}
+
+
+
+	.edgtf-image-with-text-image-inner {
+    	@include edgtfBoxShadow(0 1px 4px rgba(0, 0, 0, 0.08));
+    	@include edgtfTransition(all 0.3s ease-in-out);
+		position: relative;
+		.edgtf-image-with-text-image-overlay {
+			opacity: 0;
+			height: 100%;
+			width: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			@include edgtfTransition(all 0.3s ease-in-out);
+			.edgtf-image-with-text-image-overlay-inner {
+			    top: 50%;
+			    position: absolute;
+			    left: 50%;
+			    transform: translate(-50%,-50%);
+			    z-index: 10;
+			}
+		}
+
+		.edgtf-image-with-text-link{
+			position: absolute;
+			left: 0;
+			top: 0;
+			z-index: 1;
+			width: 100%;
+			height: 100%;
+
+		}
+	}
+
+	&.edgtf-has-double-buttons{
+		.edgtf-image-with-text-image-inner {
+			.edgtf-image-with-text-image-overlay {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+				background-color: rgba($first-main-color, .9);
+			}
+
+			.edgtf-iwt-double-link{
+                margin: 10px 0;
+				z-index: 100;
+				border-color: #fff;
+				color: #fff;
+			}
+
+			.edgtf-iwt-double-link:hover{
+				background-color: #fff !important;
+				border-color: #fff !important;
+				color: #000 !important;
+			}
+		}
+	}
+
+	&:hover {  
+
+		.edgtf-image-with-text-image-inner {
+			@include edgtfTransform(translate3d(0,-10px,0));
+			@include edgtfBoxShadow(0 7px 16px 0 rgba(0,0,0,.15));
+
+			.edgtf-image-with-text-image-overlay {
+				opacity: 1;
+				@include edgtfTransition(opacity 0.3s ease-in-out);
+			}
+
+			.edgtf-image-with-text .edgtf-image-with-text-text {
+				color:rgb(48, 39, 28);
+			}
+		}
+	}
+}
